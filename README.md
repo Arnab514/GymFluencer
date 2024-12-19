@@ -18,13 +18,9 @@
 
 ---
 
-## Authors
-
-- [@Arnab](https://www.github.com/Arnab514)
-
 ## Live Preview
 
-[GymFluencer ⛹️‍♂️](https://fittclub.netlify.app)
+[GymFluencer ⛹️‍♂️](https://gymfluencer-arnab.vercel.app/)
 
 ![image](./src/images/web-hero-page.png)
 

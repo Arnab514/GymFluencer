@@ -12,13 +12,13 @@ export const testimonialsData = [
   },
   {
     image: image2,
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam, ab itaque nam perferendis impedit sint ',
+    review: "The supportive environment and state-of-the-art facilities allow me to help clients reach their full potential every day. It’s inspiring to see transformations and be part of their fitness journey!",
     name: 'JOHN KEVIN',
     status: 'COACH'
   },
   {
     image : image3,
-    review:' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima aspernatur quod voluptatem',
+    review: "I’ve been to many gyms, but the level of expertise at GymFluencer is unmatched. The trainers push you to be your best while ensuring you’re never overdoing it.",
     name: 'FRANKLIN',
     status: "CUSTOMER"
   }

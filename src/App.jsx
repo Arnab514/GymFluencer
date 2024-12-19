@@ -7,6 +7,7 @@ import Testimonials from './Components/Testimonials/Testimonials';
 import Footer from './Components/Footer/Footer';
 import Join from './Components/Join/Join';
 import Contact from './Components/Contact/Contact';
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Join/>
       <Contact/>
       <Footer/>
+      <ScrollToTop/>
     </div>
   );
 }

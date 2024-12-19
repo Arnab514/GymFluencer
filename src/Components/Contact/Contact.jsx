@@ -54,7 +54,7 @@ const Contact = () => {
     const { name, email, phone, age, plan, message } = formData;
 
     const url =
-      `https://wa.me/+918766539293?text=` +
+      `https://wa.me/+917003858618?text=` +
       `*Name :* ${name}%0a` +
       `*Email :* ${email}%0a` +
       `*Contact No :* ${phone}%0a` +
@@ -86,7 +86,7 @@ const Contact = () => {
               <span>CONTACT</span>
               <span>US</span>
             </div>
-            <div className="app-contact">CONTACT INFO : +62 81 314 928 595</div>
+            <div className="app-contact">CONTACT INFO : +91 70038 58618</div>
           </div>
           <div className="screen-body-item">
             <div className="app-form">

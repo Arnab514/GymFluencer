@@ -2,11 +2,11 @@
 :root {
   --lightgray: #D9D9D9;
   --gray: #9c9c9c;
-  --orange: #f42f15;
-  --darkGrey: #464D53;
-  --caloryCard: #656565;
-  --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ff5439 100.75%);
-  --appColor:  #3c3f45;
+  --orange: #f05c49;
+  --darkGrey: #3c3434;
+  --caloryCard: #464242;
+  --planCard: linear-gradient(210.41deg, #fb685b 1.14%, #ff5439 100.75%);
+  --appColor:  #000000;
 }
 
 .App {
@@ -24,7 +24,7 @@
 
 .stroke-text{
   color: transparent;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Orbitron, Arial, Helvetica, sans-serif;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
 }

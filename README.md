@@ -12,19 +12,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Authors
 
-- [@Shuence](https://www.github.com/shuence)
-
-## Badges
-
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-gre.svg)](https://opensource.org/licenses/)
+- [@Arnab](https://www.github.com/Arnab514)
 
 ## Live Preview
 
 [Fitclub ⛹️‍♂️](https://fittclub.netlify.app)
 
-![image](https://user-images.githubusercontent.com/65482186/222947174-1fcc8ae0-64b7-4d02-b81a-9f8c1f95dd31.png)
+![image](./src/images/web-hero-page.png)
 
-<https://user-images.githubusercontent.com/65482186/222948714-94b3740e-4721-452c-b26b-7dea22cd54fc.mp4>
+<!-- <https://user-images.githubusercontent.com/65482186/222948714-94b3740e-4721-452c-b26b-7dea22cd54fc.mp4> -->
 
 ## Setup
 
@@ -51,18 +47,18 @@ Contributions are always welcome!
 
 Please adhere to this project's `code of conduct`.
 
-# Hi, I'm Shuence! 👋
+# Hi, I'm Arnab! 👋
 
 ## 🚀 About Me
 
 I'm Shubham A FY B.Tech Student
 
-A Frontend Developer
+A Frontend/ Backend/ Full Stack Developer
 
 ## 🛠 Skills
 
-Reactjs, Javascript, HTML, CSS
+Reactjs, Javascript, HTML, CSS, Nextjs, Typescript, Nodejs, Expressjs
 
 ## Happy coding 💯
 
-Made with love from Shuence ❤️
+Made with love from Arnab ❤️

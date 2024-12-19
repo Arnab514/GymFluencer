@@ -1,18 +1,41 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Logo from "../../assets/Logo1.svg";
 import "./Header.css";
 import { Link } from "react-scroll";
 import Bars from "../../assets/bars.png";
 
 const Header = () => {
-  const mobile = window.innerWidth <= 768 ? true : false;
+  const mobile = window.innerWidth <= 768;
   const [menuOpened, setMenuOpened] = useState(false);
+  const menuRef = useRef(null);
+
+  const handleClickOutside = (event) => {
+    if (menuRef.current && !menuRef.current.contains(event.target)) {
+      setMenuOpened(false);
+    }
+  };
+
+  useEffect(() => {
+    if (menuOpened) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [menuOpened]);
+
   return (
     <div className="header" id="header">
       <img src={Logo} alt="" className="logo" />
-      {(menuOpened===false && mobile===true)? (
+      {menuOpened === false && mobile ? (
         <div
-          style={{ backgroundColor: "var(--appColor)", padding: "0.5rem", borderRadius: "5px" }}
+          style={{
+            backgroundColor: "var(--appColor)",
+            padding: "0.5rem",
+            borderRadius: "5px",
+          }}
           onClick={() => setMenuOpened(true)}
         >
           <img
@@ -22,7 +45,7 @@ const Header = () => {
           />
         </div>
       ) : (
-        <ul className="header-menu">
+        <ul className="header-menu" ref={menuRef}>
           <li>
             <Link
               onClick={() => setMenuOpened(false)}
